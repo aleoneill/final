@@ -1,0 +1,31 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "Final",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleoneill/final.git"
+  },
+  "author": "Alexis Oneill",
+  "license": "ISC",
+  "homepage": "https://github.com/aleoneill/final.git",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "hbs": "^4.0.6",
+    "jquery-timepicker": "^1.3.3",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "save": "^2.4.0"
+  }
+}
