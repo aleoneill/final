@@ -127,6 +127,11 @@ app.get('/dashboard', function(req, res) {
     });
 });
 
-app.listen("5000", "0.0.0.0", function() {
-    console.log("Express Server is Running...");
+// app.listen("5000", "0.0.0.0", function() {
+//     console.log("Express Server is Running...");
+// });
+
+// server listener - heroku ready
+app.listen(process.env.PORT, process.env.IP, function() {
+    console.log("Running Express Server...");
 });
